@@ -1,7 +1,10 @@
 **/__pycache__/
 .venv/
 .env
-.env.*
+.env.local
+.env.production
+# .env.example được phép commit (template cho team)
+!.env.example
 rag-demo/documents/
 rag-demo/logs/*.log
 rag-demo/logs/*.log.*
